@@ -1,0 +1,82 @@
+/* Estilo geral */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #262626;
+}
+
+/* Estilo da página inicial */
+.start-container {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px;
+    width: 300px;
+}
+
+.start-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.start-container p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.start-button {
+    background-color: #3897f0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 24px;
+    padding: 12px 24px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #3180d4;
+}
+
+/* Estilo da enquete */
+.poll-container {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.poll-question {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.poll-option {
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 0;
+    width: 100%;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.poll-option:hover {
+    background-color: #3180d4;
+}
